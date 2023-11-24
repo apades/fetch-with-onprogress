@@ -1,0 +1,26 @@
+{
+    "ts-node": {
+        "compilerOptions": {
+            "module": "NodeNext",
+            "moduleResolution": "node"
+        }
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "paths": {
+            "@pkgs/*": [
+                "../*"
+            ]
+        },
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "module": "ESNext",
+        "target": "es6",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "./src/**/*",
+    ]
+}
